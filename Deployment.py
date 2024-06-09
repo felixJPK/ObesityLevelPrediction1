@@ -82,7 +82,7 @@ input {
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 #loading the saved model
-with open('D:/document/Binus/Semester4/ML/Assessment/Deployment/trained_model.sav', 'rb') as file:
+with open('trained_model.sav', 'rb') as file:
     loaded_model = pickle.load(file)
 
 # Access the model and encoder
